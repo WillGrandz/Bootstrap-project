@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Our Team</title> <!-- Titel på webbsidan -->
+		<meta charset="UTF-8"> <!-- Teckenkodning -->
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"> <!-- Metatagg för responsiv design -->
+		<meta name="author" content="William Grandez"> <!-- Metadata om författare -->
+    	<meta name="description" content="Examinationsuppgift 3 - Ramverk"> <!-- Metadata för beskrivning -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+		<link rel="icon" href="images/mountain.png"> <!-- Favicon -->
+		<style>
+		  body {
+		    background-color: #eaeaea; /* Bakgrundsfärg */
+		    font-family: 'Roboto', sans-serif; /* Fontfamilj */
+		  }
+		  .card-body {
+		    min-height: 200px; /* Minsta tillåtna höjden för korten */
+		  }
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">Sterling Summit Solutions</a> <!-- Varumärke/logotyp -->
+				<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+				  <span class="navbar-toggler-icon"></span> <!-- Ikon för växling av navigeringsfält för mobil -->
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav"> <!-- Navigeringsfältets objekt -->
+				  <ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+					  <a class="nav-link" href="index.html">Home</a> <!-- Länk till hemsidan -->
+					</li>
+		  
+					<li class="nav-item dropdown active">
+					  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownAbout" role="button">About</a> <!-- Rullgardinsmeny för information -->
+					  <div aria-labelledby="navbarDropdownAbout" class="dropdown-menu">
+						<a class="dropdown-item" href="team.html">Our Team</a> <!-- Länk till teamet -->
+						<a class="dropdown-item" href="vision.html">Mission & Vision</a> <!-- Uppdrag och vision länk -->
+						<div class="dropdown-divider"></div> <!-- Avgränsare för rullgardinsmeny -->
+						<a class="dropdown-item" href="#">Experiences</a> <!-- Länk till erfarenheter -->
+					  </div>
+					</li>
+		  
+					<li class="nav-item">
+					  <a class="nav-link" href="contact.html">Contact</a> <!-- Kontaktlänk -->
+					</li>
+		  
+					<li class="nav-item">
+					  <a class="nav-link" href="services.html">Services</a> <!-- Länk till tjänster -->
+					</li>
+				  </ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="container mt-5 mb-5"> <!-- Container för att hålla huvudinnehållet med övre och undre marginaler -->
+				<h1> <!-- Huvudrubrik -->
+					Our Team
+				</h1>
+	
+				<p> <!-- Mellanrubrik -->
+					Meet some of our amazing leading team members:
+				</p>
+	
+				<div class="card-deck"> <!-- Korthållare för att hålla teammedlemmarnas kort -->
+					<div class="card"> <!-- Kort för första medlemmen i teamet -->
+						<img alt="Team Member William Grandez" class="card-img-top" src="images/me.jpg"> <!-- Bild för medlem i teamet -->
+						<div class="card-body"> <!-- Kort som innehåller titel och beskrivning -->
+							<h5 class="card-title"> <!-- Titel på medlem i teamet -->
+								William Grandez
+							</h5>
+	
+							<p class="card-text"> <!-- Teammedlemmens roll -->
+								CEO
+							</p>
+	
+							<p class="card-text"> <!-- Beskrivning av medlem i teamet -->
+								William is the CEO of our company. He is passionate about leadership and innovation.
+							</p>
+						</div>
+					</div>
+	
+					<div class="card"> <!-- Kort för andra medlemmen i teamet -->
+						<img alt="Team Member Evangeline Beaumont" class="card-img-top" src="images/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"> <!-- Bild för medlem i teamet -->
+						<div class="card-body"> <!-- Kort som innehåller titel och beskrivning -->
+							<h5 class="card-title"> <!-- Titel på medlem i teamet -->
+								Evangeline Beaumont
+							</h5>
+	
+							<p class="card-text"> <!-- Teammedlemmens roll -->
+								COO
+							</p>
+	
+							<p class="card-text"> <!-- Beskrivning av medlem i teamet -->
+								Evangeline oversees the company's operations. She is dedicated to efficiency and quality.
+							</p>
+						</div>
+					</div>
+	
+					<div class="card"> <!-- Kort för tredje medlemmen i teamet -->
+						<img alt="Team Member Elara Martinez" class="card-img-top" src="images/joel-mott-LaK153ghdig-unsplash.jpg"> <!-- Bild för medlem i teamet -->
+						<div class="card-body"> <!-- Kort som innehåller titel och beskrivning -->
+							<h5 class="card-title"> <!-- Titel på medlem i teamet -->
+								Elara Martinez
+							</h5>
+	
+							<p class="card-text"> <!-- Teammedlemmens roll -->
+								CTO
+							</p>
+	
+							<p class="card-text"> <!-- Beskrivning av medlem i teamet -->
+								Elara leads our technology team. She is committed to innovation and cutting-edge solutions.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-dark text-white text-center py-3 mt-5"> <!-- Sidfot -->
+			<div class="container">
+				<p>
+					&copy; 2024 William Grandez's Website. All Rights Reserved.
+				</p>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- jQuery -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <!-- Popper.js -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+	</body>
+</html>

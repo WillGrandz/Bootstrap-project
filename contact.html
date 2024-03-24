@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact</title> <!-- Titel på webbsidan -->
+		<meta charset="UTF-8"> <!-- Teckenkodning -->
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"> <!-- Metatagg för responsiv design -->
+		<meta name="author" content="William Grandez"> <!-- Metadata om författare -->
+    	<meta name="description" content="Examinationsuppgift 3 - Ramverk"> <!-- Metadata för beskrivning -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+		<link rel="icon" href="images/mountain.png"> <!-- Favicon -->
+		<style>
+		  body {
+		    background-color: #eaeaea; /* Bakgrundsfärg */
+		    font-family: 'Roboto', sans-serif; /* Fontfamilj */
+		  }
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">Sterling Summit Solutions</a> <!-- Varumärke/logotyp -->
+				<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+					<span class="navbar-toggler-icon"></span> <!-- Ikon för växling av navigeringsfält för mobil -->
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav"> <!-- Navigeringsfältets objekt -->
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a> <!-- Länk till hemsidan -->
+						</li>
+	
+						<li class="nav-item dropdown active">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownAbout" role="button">About</a> <!-- Rullgardinsmeny för information -->
+							<div aria-labelledby="navbarDropdownAbout" class="dropdown-menu">
+								<a class="dropdown-item" href="team.html">Our Team</a> <!-- Länk till teamet -->
+								<a class="dropdown-item" href="vision.html">Mission & Vision</a> <!-- Uppdrag och vision länk -->
+								<div class="dropdown-divider"></div> <!-- Avgränsare för rullgardinsmeny -->
+								<a class="dropdown-item" href="#">Experiences</a> <!-- Länk till erfarenheter -->
+							</div>
+						</li>
+	
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a> <!-- Kontaktlänk -->
+						</li>
+	
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">Services</a> <!-- Länk till tjänster -->
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="container mt-5"> <!-- Behållare för huvudinnehållet -->
+				<h1 class="mb-3"> <!-- Huvudrubrik -->
+					Contact Us
+				</h1>
+	
+				<form>
+					<div class="form-group"> <!-- Formulärgrupp för inmatning av namn -->
+						<label for="name">Name</label> <!-- Etikett för inmatning av namn -->
+						<input class="form-control" id="name" placeholder="Enter your name" type="text"> <!-- Textinmatningsfält för namn -->
+					</div>
+	
+					<div>
+						<div class="form-group"> <!-- Formulärgrupp för e-postinmatning -->
+							<label for="email">Email</label> <!-- Etikett för e-postinmatning -->
+							<input class="form-control" id="email" placeholder="Enter your email" type="email"> <!-- Textinmatningsfält för e-post -->
+						</div>
+	
+						<div class="form-group"> <!-- Bildar grupp för meddelandeinmatning -->
+							<label for="message">Message</label> <!-- Etikett för meddelandeinmatning -->
+	
+							<textarea class="form-control" id="message" placeholder="Enter your message" rows="3"></textarea> <!-- Textarea inmatningsfält för meddelande -->
+						</div>
+						<button class="btn btn-primary" type="submit">Submit</button> <!-- Skicka-knapp för formuläret -->
+					</div>
+				</form>
+	
+				<div class="embed-responsive embed-responsive-16by9 mt-5"> <!-- Bädda in responsiv behållare för Google Maps -->
+					<!-- Google Maps iframe -->
+					<iframe allowfullscreen aria-hidden="false" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.458789390928!2d13.411942015566542!3d52.524375548209415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1e5b71cbe6c39%3A0x39940b4f2d0c5be1!2sBrandenburger%20Tor!5e0!3m2!1sen!2sde!4v1592477038750!5m2!1sen!2sde" style="border:0;" tabindex="0"></iframe>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-dark text-white text-center py-3 mt-5"> <!-- Sidfot -->
+			<div class="container">
+				<p>
+					&copy; 2024 William Grandez's Website. All Rights Reserved.
+				</p>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- jQuery -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <!-- Popper.js -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mission & Vision</title> <!-- Titel på webbsidan -->
+		<meta charset="UTF-8"> <!-- Teckenkodning -->
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"> <!-- Metatagg för responsiv design -->
+		<meta name="author" content="William Grandez"> <!-- Metadata om författare -->
+    	<meta name="description" content="Examinationsuppgift 3 - Ramverk"> <!-- Metadata för beskrivning -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+		<link rel="icon" href="images/mountain.png"> <!-- Favicon -->
+		<style>
+		  body {
+		    background-color: #eaeaea; /* Bakgrundsfärg */
+		    font-family: 'Roboto', sans-serif; /* Fontfamilj */
+		  }
+		  .card {
+		    margin-bottom: 20px;
+		  }
+		  .card-body {
+		    padding: 20px;
+		  }
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">Sterling Summit Solutions</a> <!-- Varumärke/logotyp -->
+				<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+				  <span class="navbar-toggler-icon"></span> <!-- Ikon för växling av navigeringsfält för mobil -->
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav"> <!-- Navigeringsfältets objekt -->
+				  <ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+					  <a class="nav-link" href="index.html">Home</a> <!-- Länk till hemsidan -->
+					</li>
+		  
+					<li class="nav-item dropdown active">
+					  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownAbout" role="button">About</a> <!-- Rullgardinsmeny för information -->
+					  <div aria-labelledby="navbarDropdownAbout" class="dropdown-menu">
+						<a class="dropdown-item" href="team.html">Our Team</a> <!-- Länk till teamet -->
+						<a class="dropdown-item" href="vision.html">Mission & Vision</a> <!-- Uppdrag och vision länk -->
+						<div class="dropdown-divider"></div> <!-- Avgränsare för rullgardinsmeny -->
+						<a class="dropdown-item" href="#">Experiences</a> <!-- Länk till erfarenheter -->
+					  </div>
+					</li>
+		  
+					<li class="nav-item">
+					  <a class="nav-link" href="contact.html">Contact</a> <!-- Kontaktlänk -->
+					</li>
+		  
+					<li class="nav-item">
+					  <a class="nav-link" href="services.html">Services</a> <!-- Länk till tjänster -->
+					</li>
+				  </ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="container mt-5"> <!-- Container för att hålla huvudinnehållet med övre marginal -->
+				<h1 class="text-center mb-5"> <!-- Huvudrubrik -->
+					Mission & Vision
+				</h1>
+	
+				<div class="row"> <!-- Rad för att dela upp innehåll i två kolumner -->
+					<div class="col-md-6"> <!-- Första kolumnen för bilden -->
+						<img alt="Team photo in a sunset" class="img-fluid" src="images/javier-allegue-barros-i5Kx0P8A0d4-unsplash.jpg"> <!-- Bild för uppdraget och visionen -->
+					</div>
+	
+					<div class="col-md-6"> <!-- Andra kolumnen för uppdrags- och visionskorten -->
+						<div class="card"> <!-- Kort för uppdraget -->
+							<div class="card-body"> <!-- Kort som innehåller titel och beskrivning -->
+								<h5 class="card-title"> <!-- Titel för uppdraget -->
+									Our Mission
+								</h5>
+	
+								<p class="card-text"> <!-- Beskrivning av uppdraget -->
+									Our mission is to guide our clients to the summits of their dreams, providing expert guidance and support every step of the way. We strive to empower climbers with innovative solutions and unparalleled service, ensuring they achieve their climbing goals safely and successfully.
+								</p>
+							</div>
+						</div>
+	
+						<div class="card"> <!-- Kort för visionen -->
+							<div class="card-body"> <!-- Kort som innehåller titel och beskrivning -->
+								<h5 class="card-title"> <!-- Titel för uppdraget -->
+									Our Vision
+								</h5>
+	
+								<p class="card-text"> <!-- Beskrivning av uppdraget -->
+									Our vision is to be the leading partner for climbers seeking to conquer new heights. We aim to set the standard in the climbing industry, inspiring positive change and making a lasting impact on our clients, guides, and the communities we climb in.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-dark text-white text-center py-3 mt-5"> <!-- Sidfot -->
+			<div class="container">
+				<p>
+					&copy; 2024 William Grandez's Website. All Rights Reserved.
+				</p>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- jQuery -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> <!-- Popper.js -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+	</body>
+</html>
